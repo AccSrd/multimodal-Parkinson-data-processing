@@ -22,7 +22,7 @@ You can find some sample data in the floder, which can be utilized for testing t
 
 This repository contains the code of data processing using in the dataset and paper above, and some sample data corresponding with the code.
 
-![Fig Abstract](/Fig/Abstract.jpg "Abstract")
+![Fig Abstract](/Fig/Abstract.JPG "Abstract")
 
 Freezing of gaits (FOG), a debilitating transitory inability to pursue moving, is one of the severest symptoms of Parkinson's disease (PD). An accurate and reliable detection or prediction of FOG is of great significance for PD patients' assessment and rehabilitation. It is difficult to detect FOG with sufficient low-latency and high precision based on single sensor information. In order to improve the detection accuracy and facilitate further research, we gathered and presented a new multimodal dataset by combining rich physical and physiological sensor information. The multimodal data, including electroencephalogram (EEG), electromyogram (EMG), electrocardiogram (ECG), skin conductance (SC), and acceleration (ACC) in walking tasks, were collected using a high-quality hardware system integrated commercial and self-designed sensors. A standard experimental procedure was carefully designed to induce FOG in hospital surroundings. A total number of 12 PD patients completed the experiments and produced a total length of 3 hours and 42 minutes valid data. The FOG episodes in the multimodal data were labeled by two qualified physicians. The multimodal data can be used to efficiently discriminant FOG from normal locomotion, and indicated that changes in the multimodal motional and electrophysiological signals during FOG episodes could be used to guide PD patients' treatment and recovery.
 
