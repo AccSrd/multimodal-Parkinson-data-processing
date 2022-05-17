@@ -50,7 +50,7 @@ There are three steps of data processing in general:
 2. Preprocessed --> Segmented: Divided the data into a single piece of data for each task. Put multimodal data together.
 3. Segmented --> Labeled: Label the Data with 1(FOG) and 0(FOG-Free.)
 
-### Sample Data
+## Sample Data
 
 The corresponding sample data were given in the `./Sample Data` folder. It is worth mentioning that the sample data is just a sample, un-alignment segment of the actual data.
 
@@ -61,7 +61,7 @@ The EEG/EMG raw data provided in the dataset must be preprocessed (detailed info
 
 The whole dataset is provided in the dataset shown above. Please use that link to download the dataset.
 
-### Python Scripts
+## Python Scripts
 
 We provide the python script to process the raw data into filtered data in the `./Scripts` folder.
 
