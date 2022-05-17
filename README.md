@@ -10,9 +10,7 @@
 
 [Li, Hantao (2021), “Raw Data: Multimodal Dataset of Freezing of Gait in Parkinson's Disease”, Mendeley Data, V1, doi: 10.17632/t8j8v4hnm4.1](https://data.mendeley.com/datasets/t8j8v4hnm4/1)
 
-### Sample Data
-
-You can find some sample data in the floder, which can be utilized for testing the processing code.
+We provide the source files for the publicity and all-stars of the data. The data length in the source file is longer than in the previous database because it contains signals recorded during patient preparation. However, due to privacy and medical data protection reasons, we cannot provide you with videos and personal information of patients, so you cannot use the files in this database to get the annotated files directly (if you can get the annotated files, you can use the provided program self-label). If you do not have a specific need for raw files, you can ignore this database and use the previous dataset.
 
 ## Paper
 
@@ -51,3 +49,23 @@ There are three steps of data processing in general:
 1. Raw --> Preprocessed: Sort out the original data header, and unify the data sampling frequency to 500Hz.
 2. Preprocessed --> Segmented: Divided the data into a single piece of data for each task. Put multimodal data together.
 3. Segmented --> Labeled: Label the Data with 1(FOG) and 0(FOG-Free.)
+
+### Sample Data
+
+The corresponding sample data were given in the `./Sample Data` folder. It is worth mentioning that the sample data is just a sample, un-alignment segment of the actual data.
+
+The EEG/EMG raw data provided in the dataset must be preprocessed (detailed information is provided in the paper) in EEGLAB to get the `.txt` file shown in `./Sample Data`. We do not show the EEGLAB scripts here. The contrast curve of the EEG signal is shown here. The above one is raw data in `.eeg` file, while the image below is the preprocessed data.
+
+![Raw EEG signal](/Fig/ori_eeg.jpeg "Raw EEG signal")
+![Prep EEG signal](/Fig/prep_eeg.png "Prep EEG signal")
+
+The whole dataset is provided in the dataset shown above. Please use that link to download the dataset.
+
+### Python Scripts
+
+We provide the python script to process the raw data into filtered data in the `./Scripts` folder.
+
+It is effortless to use:
+`python Scripts/data_process.py`
+
+You can modify the parameters in the `./Scripts/data_process.py` and the config settings in the `./settings.toml` to your own need. However, we recommend that you directly utilize the data we provide in the dataset. We performed rigorous data alignment work using multiple timestamp information sources and invited experienced Parkinson's experts to perform data labeling work.
