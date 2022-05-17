@@ -1,0 +1,33 @@
+SENSOR_NAME_ACC = ['Arm', 'Waist', 'LShank', 'RShank']
+SENSOR_SUFFIX_ACC = ['TIME', 'ACCX', 'ACCY', 'ACCZ', 'GYROX', 'GYROY', 'GYROZ']
+SENSOR_LAST_SUFFIX_Arm = ['SC']
+SENSOR_LAST_SUFFIX_Other = ['NC']
+SENSOR_NAME_EEG = ['EEG', 'EMG']
+COL_CRITERION = 'LShank'
+COL_DROP = 'RShank'
+
+TIME_SUFFIX_TABLE = ['NaN', '+.002', '+.004', '+.006', '+.008']
+
+PREP_COLNAME_ARM = ['Arm', 'ArmTIME', 'ArmOriTIME','?', 'ArmACCX', 'ArmACCY', 'ArmACCZ', 'ArmGYROX', 'ArmGYROY', 'ArmGYROZ', 'SC']
+PREP_COLNAME_WAIST = ['Waist', 'WaistTIME', 'WaistOriTIME','?', 'WaistACCX', 'WaistACCY', 'WaistACCZ', 'WaistGYROX', 'WaistGYROY', 'WaistGYROZ', 'NC']
+PREP_COLNAME_LS = ['LShank', 'LShankTIME', 'LShankOriTIME','?', 'LShankACCX', 'LShankACCY', 'LShankACCZ', 'LShankGYROX', 'LShankGYROY', 'LShankGYROZ', 'NC']
+PREP_COLNAME_RS = ['RShank', 'RShankTIME', 'RShankOriTIME','?', 'RShankACCX', 'RShankACCY', 'RShankACCZ', 'RShankGYROX', 'RShankGYROY', 'RShankGYROZ', 'NC']
+PREP_COLNAME_EEG = ['?', 'EEGTIME','FP1','FP2','F3','F4','C3','C4','P3','P4','O1','O2', 'F7','F8','P7','P8','Fz','Cz','Pz','FC1','FC2','CP1','CP2','FC5','FC6','CP5','CP6']
+PREP_COLNAME_EMG = ['?', 'EMGTIME','EMG1','EMG2','IO','EMG3','EMG4']
+PREP_COLNAME_DROP = ['LShankOriTIME', 'RShankOriTIME','GaitTIME', 'WaistOriTIME', 'ArmOriTIME']
+
+# The sub-folder that stores the data files obtained in each step. 
+# These can be renamed according to your own needs
+DATA_PATH_ROOT = './Sample Data'
+DATA_PATH_Raw = './Sample Data/1-Raw Data'
+DATA_PATH_Preprocessed = './Sample Data/2-Preprocessed Data'
+DATA_PATH_Cut = './Sample Data/3-Segmented Data'
+DATA_PATH_Labeled = './Sample Data/4-Labeled Data'
+
+FILE_SUFFIX_ACC_Raw = '_Ori.csv'
+FILE_SUFFIX_EEG_Raw = '.txt'
+FILE_SUFFIX_EEG_Mid = '_1000.csv'
+FILE_SUFFIX_Preprocessed = '.csv'
+FILE_SUFFIX_PreprocessedMid = '_new.csv'
+FILE_SUFFIX_CUT = '_data.txt'
+FILE_SUFFIX_LABEL = '.txt'
