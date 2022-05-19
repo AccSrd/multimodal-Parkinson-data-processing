@@ -10,7 +10,7 @@
 
 [Li, Hantao (2021), “Raw Data: Multimodal Dataset of Freezing of Gait in Parkinson's Disease”, Mendeley Data, V1, doi: 10.17632/t8j8v4hnm4.1](https://data.mendeley.com/datasets/t8j8v4hnm4/1)
 
-We provide the source files for the publicity and all-stars of the data. The data length in the source file is longer than in the previous database because it contains signals recorded during patient preparation. However, due to privacy and medical data protection reasons, we cannot provide you with videos and personal information of patients, so you cannot use the files in this database to get the annotated files directly (if you can get the annotated files, you can use the provided program self-label). If you do not have a specific need for raw files, you can ignore this database and use the previous dataset.
+We provide the source files for the publicity and comprehensiveness of the data. The data length in the Raw Data file is longer than in the previous database because it contains signals recorded during patient preparation. However, due to privacy and medical data protection reasons, we cannot provide you with videos and personal information of patients, so you cannot use the files in this database to get the annotated files directly (if you can get the label marks, you can use the provided scripts to self-label the raw data into filtered data). If you do not have a specific need for raw files, you can ignore this database and use the filtered dataset.
 
 ## Paper
 
