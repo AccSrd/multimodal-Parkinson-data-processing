@@ -20,18 +20,6 @@ We provide the source files for the publicity and comprehensiveness of the data.
 
 ### Cite
 ```
-@article{zhang2021sensoring,
-  title={Sensoring and Application of Multimodal Data for the Detection of Freezing of Gait in Parkinson's Disease},
-  author={Zhang, Wei and Huang, Debin and Li, Hantao and Wang, Lipeng and Wei, Yanzhao and Pan, Kang and Ma, Lin and Feng, Huanhuan and Pan, Jing and Guo, Yuzhu},
-  journal={arXiv preprint arXiv:2110.04444},
-  year={2021}
-}
-```
-
-[Zhang, W., Huang, D., Li, H., Wang, L., Wei, Y., Pan, K., ... & Guo, Y. (2021). Sensoring and Application of Multimodal Data for the Detection of Freezing of Gait in Parkinson's Disease.](https://arxiv.org/abs/2110.04444)
-
-### Cite
-```
 @article{zhang2022multimodal,
   title={Multimodal Data for the Detection of Freezing of Gait in Parkinson’s Disease},
   author={Zhang, Wei and Yang, Zhuokun and Li, Hantao and Huang, Debin and Wang, Lipeng and Wei, Yanzhao and Zhang, Lei and Ma, Lin and Feng, Huanhuan and Pan, Jing and others},
@@ -41,6 +29,18 @@ We provide the source files for the publicity and comprehensiveness of the data.
   pages={1--10},
   year={2022},
   publisher={Nature Publishing Group}
+}
+```
+
+[Zhang, W., Huang, D., Li, H., Wang, L., Wei, Y., Pan, K., ... & Guo, Y. (2021). Sensoring and Application of Multimodal Data for the Detection of Freezing of Gait in Parkinson's Disease.](https://arxiv.org/abs/2110.04444)
+
+### Cite
+```
+@article{zhang2021sensoring,
+  title={Sensoring and Application of Multimodal Data for the Detection of Freezing of Gait in Parkinson's Disease},
+  author={Zhang, Wei and Huang, Debin and Li, Hantao and Wang, Lipeng and Wei, Yanzhao and Pan, Kang and Ma, Lin and Feng, Huanhuan and Pan, Jing and Guo, Yuzhu},
+  journal={arXiv preprint arXiv:2110.04444},
+  year={2021}
 }
 ```
 
