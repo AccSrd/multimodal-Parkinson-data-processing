@@ -2,6 +2,8 @@
 
 ## Datasets
 
+` Please use the data processing code provided in this repository instead of the original version in the database! `
+
 ### Filtered Data
 
 [Li, Hantao (2021), “Multimodal Dataset of Freezing of Gait in Parkinson's Disease”, Mendeley Data, V3, doi: 10.17632/r8gmbtv7w2.3](https://data.mendeley.com/datasets/r8gmbtv7w2/3)
@@ -14,7 +16,33 @@ We provide the source files for the publicity and comprehensiveness of the data.
 
 ## Paper
 
+[Zhang, W., Yang, Z., Li, H., Huang, D., Wang, L., Wei, Y., ... & Chan, P. (2022). Multimodal Data for the Detection of Freezing of Gait in Parkinson’s Disease. Scientific data, 9(1), 1-10.](https://www.nature.com/articles/s41597-022-01713-8)
+
+### Cite
+```
+@article{zhang2021sensoring,
+  title={Sensoring and Application of Multimodal Data for the Detection of Freezing of Gait in Parkinson's Disease},
+  author={Zhang, Wei and Huang, Debin and Li, Hantao and Wang, Lipeng and Wei, Yanzhao and Pan, Kang and Ma, Lin and Feng, Huanhuan and Pan, Jing and Guo, Yuzhu},
+  journal={arXiv preprint arXiv:2110.04444},
+  year={2021}
+}
+```
+
 [Zhang, W., Huang, D., Li, H., Wang, L., Wei, Y., Pan, K., ... & Guo, Y. (2021). Sensoring and Application of Multimodal Data for the Detection of Freezing of Gait in Parkinson's Disease.](https://arxiv.org/abs/2110.04444)
+
+### Cite
+```
+@article{zhang2022multimodal,
+  title={Multimodal Data for the Detection of Freezing of Gait in Parkinson’s Disease},
+  author={Zhang, Wei and Yang, Zhuokun and Li, Hantao and Huang, Debin and Wang, Lipeng and Wei, Yanzhao and Zhang, Lei and Ma, Lin and Feng, Huanhuan and Pan, Jing and others},
+  journal={Scientific data},
+  volume={9},
+  number={1},
+  pages={1--10},
+  year={2022},
+  publisher={Nature Publishing Group}
+}
+```
 
 ## Abstract
 
